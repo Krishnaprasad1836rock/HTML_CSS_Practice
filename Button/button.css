@@ -1,0 +1,255 @@
+.subscribe-button {
+  background-color: rgb(201, 14, 14);
+  color: white;
+  border: none;
+  height:36px;
+  width:105px;
+  border-radius:2px;
+  cursor:pointer;
+  margin-right: 8px;
+  transition: opacity 0.15s;
+  vertical-align:top;
+}
+.subscribe-button:hover {
+  opacity:0.7;
+}
+.subscribe-button:active {
+  opacity:0.4;
+}
+.join{
+  background-color: white;
+  color: rgb(121, 196, 212);
+  border-style: solid;
+  border-width: 1px;
+  border-color: blue;
+  border-radius: 2px;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  transition: background-color 0.15s,
+  color 0.15s;
+  padding-left: 
+}
+.join:hover{
+  background-color: rgb(121, 196, 212);
+  color: white;
+}
+.join:active{
+  opacity: 0.7;
+}
+.tweet{
+  background-color: rgb(121, 196, 212);
+  color :white;
+  width: 74px;
+  height: 36px;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  margin-left: 8px;
+  margin-right: 8px;
+  transition: box-shadow 0.15s;
+}
+.tweet:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.uber{
+  background-color: black;
+  color: white;
+  height: 36px;
+  width: 100px;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.uber:hover{
+  opacity: 0.7;
+}
+.amazon{
+  background-color: rgb(255, 216, 20);
+  border-radius: 18px;
+  height: 36px;
+  width: 150px;
+  border: none;
+  font-weight: bold;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+.amazon:hover{
+  background-color: orange;
+}
+.git{<button class="uber">
+  Request now
+</button>
+  background-color: rgb(46, 164, 79);
+  font-weight: bold;
+  color: white;
+  border: none;
+  height: 36px;
+  width: 100px;
+  border-radius: 10px;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+}
+.git:hover{
+  box-shadow: 5px 5px 10px rgba(0,0,0,.15); 
+}
+.boot{
+  background-color: rgb(121, 82, 179);
+  font-weight: bold;
+  color: white;
+  height: 36px;
+  width: 150px;
+  border-radius: 5px;
+  margin-right: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+.boot:hover{
+  background-color: purple;
+}
+.download{
+  background-color: white;
+  color: grey;
+  height: 36px;
+  width: 150px;
+  border-radius: 5px;
+  margin-right: 8px;
+  border-color: gray;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.15s, 
+  color  0.15s;
+}
+.download:hover{
+  background-color: grey;
+  color: white;
+}
+.lkd{
+  background-color: rgb(10, 102, 194);
+  color: white;
+  height: 36px;
+  width: 250px;
+  border-radius: 20px;
+  margin-right: 8px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+.lkd:hover{
+  background-color: rgb(16, 10, 194);
+}
+.save{
+  background-color: white;
+  color: rgb(10, 102, 194);
+  height: 36px;
+  width: 100px;
+  border-radius: 15px;
+  margin-right: 8px;
+  border-color: rgb(10, 102, 194);
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.15s, border-width 0.15s;
+}
+.save:hover{
+  background-color: aqua;
+  border-width: 3px;
+}
+.ama{
+  color: rgb(0, 113, 133);
+  transition: color 0.15s;
+}
+.ama:hover{
+  color: rgba(255, 0, 0, 0.805);
+}
+.para{
+  font-size: 20px;
+  font-weight: bold;
+}
+.stock{
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+}
+.cart{
+  background-color: rgb(255, 216, 20);
+  border-radius: 20px;
+  height: 36px;
+  width: 150px;
+  border: none;
+  margin-right: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.cart:active{
+  opacity: 0.7;
+}
+.buy{
+  background-color: rgb(255, 164, 28);
+  border-radius: 20px;
+  height: 36px;
+  width: 150px;
+  border: none;
+  margin-right: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.buy:active{
+  opacity: 0.7;
+}
+.back{
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  cursor: pointer;
+  margin-right:8px;
+  margin-left:8px;
+}
+.rss{
+  color: blue;
+  padding-right: 8px;
+}
+.Stretch{
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.Stretch:hover{
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.shadow{
+  background-color: green;
+  color: white;
+  border: none;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+.shadow:active{
+  margin-top: 3px;
+  margin-left: 3px;
+}
+.re{
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  border: none;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+.re:hover{
+  padding-right: 15px;
+  padding-left: 15px;
+}

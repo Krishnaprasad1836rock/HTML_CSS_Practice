@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Flex box practice
+    </title>
+    <style>
+      p{margin-top:0px;margin-bottom:0px; font-family:Roboto;}
+    </style>
+  </head>
+  <body style="padding-bottom:1000px">
+
+    <div style="display: flex; flex-direction: row;">
+      <div style="background-color: aqua;">div1 text</div>
+      <div style="background-color:fuchsia;">div2 <p>text</p></div>
+    </div>
+
+
+    <div style="display: flex; flex-direction: row; margin-top: 20px;">
+      <div style="background-color: aqua; width:100px;">100px</div>
+      <div style="background-color:fuchsia;flex:1;">flex:1 </div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 20px;">
+      <div style="background-color: aqua; width:100px;">100px</div>
+      <div style="background-color:fuchsia;flex:1;">flex:1 </div>
+      <div style="background-color:aqua;flex:2;">flex:2 </div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 20px;">
+      <div style="background-color: aqua; width:100px;">100px</div>
+      <div style="background-color:fuchsia;flex:1;">flex:1 </div>
+      <div style="background-color:aqua;flex:2;">flex:2 </div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; justify-content:center; margin-top: 30px; height: 70px; border-width: 1px; border-style: solid; border-color: gray;">
+      <div style="background-color: aqua; width:100px;">100px</div>
+      <div style="background-color:fuchsia;width:100px;">100px</div>
+      <div style="background-color:aqua;width:100px;">100px</div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; justify-content:space-between; align-items: center; margin-top: 30px; height: 70px; border-width: 1px; border-style: solid; border-color: gray;">
+      <div style="background-color: aqua; width:100px;">100px</div>
+      <div style="background-color:fuchsia;width:100px;">100px</div>
+      <div style="background-color:aqua;width:100px;">100px</div>
+    </div>
+
+    <div style="display:flex; flex-direction: row;">
+    <div style="width:200px; background-color: aqua;">200px</div>
+    <div style="width:75px; background-color: pink;">75px</div>
+    </div>
+
+    <div style="display:flex; flex-direction: row; margin-top:10px">
+      <div style="width:50px; background-color: aqua;">item1</div>
+      <div style="flex:1; background-color: palevioletred;">item2</div>
+      <div style="width:75px; background-color: aqua;">item3</div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 20px; justify-content: space-between; border: solid; border-width: 1px;">
+      <div style="background-color: fuchsia;">item1</div>
+      <div style="background-color: fuchsia;">item2</div>
+      <div style="background-color: fuchsia;">item3</div>
+      <div style="background-color: fuchsia;">item4</div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 20px; justify-content: space-between; border: solid; border-width: 1px; height: 50px; align-items: center;">
+      <div style="background-color: fuchsia;">item1</div>
+      <div style="background-color: fuchsia;">item2</div>
+    </div>
+
+    <div style="display: flex; flex-direction:column; margin-top: 20px; justify-content: space-between; border: solid; border-width: 1px; height: 70px; align-items: start;">
+      <div style=" display: flex; flex-direction: row; justify-content: space-between; width: 150px;">
+        <div style="width:120px">Home</div> 
+        <div style="background-color: fuchsia;vertical-align: right;"><button>14</button></div>
+      </div>
+      <div style="display: flex; flex-direction: row;justify-content: space-between;width: 150px;">
+        <div style="width:120px">Notifications</div> 
+        <div style="vertical-align: right;"><button>3</button></div>
+      </div>
+      <div style=" display: flex; flex-direction: row; justify-content: space-between;width: 150px;">
+        <div style="width:120px">Messages</div> 
+        <div style="vertical-align: right;"><button>5</button></div>
+      </div>
+    </div>
+
+    <div style="display:flex;flex-direction: row; margin-top:10px; border:solid; border-width: 1px; height: 40px; justify-content: space-between; align-items: center;background-color:  blueviolet; padding-right:10px;padding-left:10px;">
+        <div style="color: white;font-weight: bold;  ">Home</div>
+        <div><input type="text" placeholder="Search" style="width:400px;border-radius:20px;" ></div>
+        <div><button style="background-color: blueviolet; color:white;border-color: white;">Download</button></div>
+    </div>
+
+    <div style="margin-top:10px;display:flex; flex-direction: row; height:100px;border:solid;border-width: 8px;margin-left:-px;width:300px">
+    <div style="background-color: lightcoral; width:100px; display:flex;align-items: center; color:white;"><div style="background-color: black; margin-left:30px">item1</div></div>
+    <div style="background-color: lightblue;width:200px;"></div>
+  </div>
+
+  <div style="margin-top:10px;display:flex; flex-direction: row; height:100px;border:solid;border-width: 8px;margin-left:-px;width:300px">
+    <div style="background-color: lightcoral; width:100px; "></div>
+    <div style="background-color: lightblue;width:200px;display:flex;flex-direction: row;justify-content: space-between;">
+    <div>row1<p style="margin-top:0px; background-color: black;color:white">row2</p></div>
+    <div><p style="background-color: black;color:white;">row2</p></div>
+    </div>
+  </div>
+
+  <div style="border:solid;border-color: gray; height:180px; width:320px; margin-top:10px; " >
+    <div style="   height:20px; "><p style="margin-top: 0px; color:gray; font-size:smaller; margin-top:2px;">All INBOXES</p></div>
+ 
+  
+    <div style="display:flex; flex:1; height: 50px; align-items: center;">
+    <div style="display:flex;"><img src="thumbnail/hlogo6.jpeg" style="width:50px; height:50px; "></div>
+    <div style="display:flex; flex:1; justify-content: space-between;">
+    <div style="margin-right:-15px;margin-left:10px; "><p style="font-weight: bold;font-size:14px;">Chwey Promootions</p><p style="font-weight: bold; font-size:12px;">Biggest Sales of the Year!</p><p style="color:grey; font-size:10px;">Hey there! We're writing to tell you about our</p></div>
+    <div style="font-size:15px; margin-left:-20px;  padding-right: 10px;color: grey; font-size:11px;">4:58PM</div>
+    </div>
+    </div>
+
+    <div style="display:flex; flex:1;  height: 50px; align-items: center;">
+      <div style="display:flex;"><img src="thumbnail/hlogo6.jpeg" style="width:50px; height:50px; "></div>
+      <div style="display:flex; flex:1; justify-content: space-between;">
+      <div style="margin-right:-15px;margin-left:10px; "><p style="font-weight: bold;font-size:14px;">Chwey Promootions</p><p style="font-weight: bold; font-size:12px;">Biggest Sales of the Year!</p><p style="color:grey; font-size:10px;">Hey there! We're writing to tell you about our</p></div>
+      <div style="font-size:15px; margin-left:-20px;  padding-right: 10px;color: grey; font-size:11px;">4:58PM</div>
+      </div>
+      </div>
+
+      <div style="display:flex; flex:1;  height: 50px; align-items: center;">
+        <div style="display:flex;"><img src="thumbnail/hlogo6.jpeg" style="width:50px; height:50px; "></div>
+        <div style="display:flex; flex:1; justify-content: space-between;">
+        <div style="margin-right:-15px; margin-left:10px; "><p style="font-weight: bold;font-size:14px;">Chwey Promootions</p><p style="font-weight: bold; font-size:12px;">Biggest Sales of the Year!</p><p style="color:grey; font-size:10px;">Hey there! We're writing to tell you about our</p></div>
+        <div style="font-size:15px; margin-left:-20px;  padding-right: 10px;color: grey; font-size:11px;">4:58PM</div>
+        </div>
+        </div>
+    
+    
+    
+  
+
+
+  
+    </div>
+    </div>
+  
+  </div>
+
+  <div style="display:flex;flex-direction: row; height: 150px; width:350px; margin-top:10px;border:solid;">
+    <div style="width:50px;">
+      <img src="thumbnail/hlogo6.jpeg" style="width:50px">
+    </div>
+    <div style="flex:1; margin-left:4px;">
+       <div style="height:20px;">
+        <span style="font-weight: bold; font-family: Roboto; font-size:13px;">supersimple.dev</span> <span style="color: gray; font-family: Roboto; font-size:13px;">@SuperSimpledev</span>
+       </div>
+       <div style="height:40px;;">
+        <span style="font-family: Roboto; font-size:13px;">What is backend web development? A complete overview.New video is up!</span>
+      </div>
+      <div style="display:flex;height:71px;">
+        <div style="width:70px;background-color: rgb(168, 165, 165);border-top-left-radius: 25px;border-bottom-left-radius: 25px;">
+        </div>
+        <div style="display:flex;flex-direction: column;flex:1;margin-left:2px;">
+          <p style="margin-top:3px;color:grey;  ">youtube.com</p>
+          <p >Backend web development- a complete overview (2021)</p>
+        </div>
+      </div>
+    </div>
+        
+    
+
+  </body>
+</html>

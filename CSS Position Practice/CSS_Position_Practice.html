@@ -26,7 +26,18 @@ width:72px;
   sidebar
 </div>
   <div style="background-color: lightblue; height: 200px; width: 200px;">div1</div>
-  <div style="background-color: lightpink; height: 200px; width: 200px;">div2</div>
+  <div style="background-color: lightpink; height: 200px; width: 200px;position:relative;">
+    <div style="
+position:absolute;
+background-color: red;
+color:white;
+bottom:10px;
+right:10px;
+">
+14:56 pm
+</div>
+    div2
+  </div>
 <div style="
 position: fixed;
 bottom:20px;
@@ -45,7 +56,25 @@ width:100px;
 background-color: green;
 color:white;
 ">
+<div style="
+position:absolute;
+background-color: red;
+color:white;
+top:0px;
+right:0px;
+">
+X
+</div>
 right sidebar
+</div>
+<div style="
+position:absolute;
+background-color: red;
+color:white;
+top:60px;
+right:10px;
+">
+Absolute
 </div>
 <div style="
 display:flex;
@@ -57,7 +86,6 @@ height:80px;
 position:fixed;
 left:320px;
 top:100px;
-
 ">
 <p>Modal Title</p>
 <p>This is a modal</p>
